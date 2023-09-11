@@ -130,7 +130,7 @@ public class Main {
         System.out.println(Tickets(70,1500));
         System.out.println(Tickets(24,950));
         System.out.println(Tickets(53,1250));
-
+        System.out.println();
         //10 задача
         System.out.println(Students(5, 2));
         System.out.println(Students(31, 20));
