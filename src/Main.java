@@ -16,7 +16,10 @@ public class Main {
     //4 Задача дорешать
     public static String triangle(int x,int y, int z)
     {
-        if (x == y && y == z) {
+        if (x+y<z || x+z<y || y+z<x) {
+            return "Не является треугольником";
+        }
+        else if (x == y && y == z) {
             return "Равносторонний треугольник";
         } else if (x == y || y == z || x == z) {
             return "Равнобедренный треугольник";
@@ -100,7 +103,7 @@ public class Main {
         System.out.println(triangle(5, 5, 5));
         System.out.println(triangle(9, 4, 6));
         System.out.println(triangle(15, 15, 17));
-        System.out.println(triangle(10, 5, 1));
+        System.out.println(triangle(5, 5, 1));
         System.out.println();
         // 5 задача
         System.out.println(ternaryEvaluation(8, 4));
