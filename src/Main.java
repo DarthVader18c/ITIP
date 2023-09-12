@@ -91,6 +91,7 @@ public class Main {
         System.out.println(Callories(time_2, intensity_2));
         System.out.println(Callories(time_3, intensity_3));
         System.out.println();
+        System.out.println();
         // 3 задача
         System.out.println(products(3, 4, 2));
         System.out.println(products(5, 0, 2));
